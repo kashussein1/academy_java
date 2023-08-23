@@ -28,5 +28,7 @@ public class PalindromeChecker {
             System.out.println("Input string is not palindrome");
         }
 
+        scanner.close();
+
     }
 }
