@@ -20,7 +20,7 @@ public class PalindromeChecker {
 
 
         // Write the code below to display "Input string is palindrome" or "Input string is not palindrome". Note: you'll have to write the logic to make that decision, as well.
-        boolean isPalindrome = input.equals(reverseInput);
+        boolean isPalindrome = input.equalsIgnoreCase(reverseInput);
         if (isPalindrome) {
             System.out.println("Input string is palindrome");
         } else {
