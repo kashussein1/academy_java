@@ -9,7 +9,6 @@ public class PalindromeChecker {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         String reverseInput = "";
-
         // Fill in the code below to reverse the input string and store it in the reverseInput variable
         char[] stringArray = input.toCharArray();
         String output = "";
