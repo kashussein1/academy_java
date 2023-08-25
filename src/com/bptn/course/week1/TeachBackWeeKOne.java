@@ -9,7 +9,6 @@ package com.bptn.course.week1;
 
 // Step 1. we have to import the scanner class in order to get user input
 
-import java.util.Scanner;
 
 public class TeachBackWeeKOne {
     public static void main(String[] args) {
