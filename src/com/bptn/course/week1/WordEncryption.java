@@ -10,7 +10,9 @@ public class WordEncryption {
         char swap;
         String key ="";
         int asciiValue;
+
         input = scanner.nextLine();
+
         char[] stringArray = input.toCharArray();
         for(int i = 0; i< stringArray.length; i++){
             asciiValue = stringArray[i];
@@ -29,8 +31,9 @@ public class WordEncryption {
             }
             key += stringArray[i];
         }
-
+        scanner.close();
         System.out.println("Encrypted word: " + key);
+
 
     }
 }
